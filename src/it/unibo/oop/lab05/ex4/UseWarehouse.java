@@ -27,9 +27,9 @@ public final class UseWarehouse {
          * 
          * 2) The implementation of Product must implement Comparable<Product>.
          */
-        final Product p1 = new ComparableProduct("Chille", 2.00);
-        final Product p2 = new ComparableProduct("Betonse", 5.76);
-        final Product p3 = new ComparableProduct("Fetecchie", 4.00);
+        final Product p1 = new ComparableProduct("GPU", 2.00);
+        final Product p2 = new ComparableProduct("Processori", 5.76);
+        final Product p3 = new ComparableProduct("RAM", 4.00);
         final Warehouse w = new OrderedWarehouse();
         w.addProduct(p3);
         w.addProduct(p1);
